@@ -71,17 +71,19 @@
             .links a:hover{
                 color:#EAE2B7;
             }
+
+
             .homeImage {
                 position:relative;
                 width:100%;
                 margin:auto;
-                min-height:600px;
+                min-height:500px;
                 background-image:url("images/homeImage1.jpg");
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
                 margin-bottom:10px;
-                margin-top:10px;
+                margin-top:10px; */
             }
             .homeImageText {
                 font-family: 'Playfair Display', Serif;
@@ -92,7 +94,10 @@
                 font-size: 28px;
                 text-align: center;
                 color: #ffff;
-            }
+            } 
+
+            
+
             .aboutUsCont {
                 margin:0px 0px 20px 0px;
                 display: block;
