@@ -88,7 +88,7 @@
             .homeImageText {
                 font-family: 'Playfair Display', Serif;
                 position: absolute;
-                top: 50%;
+                top: 30%;
                 left: 50%;
                 transform: translate(-100%,-0%);
                 font-size: 28px;
