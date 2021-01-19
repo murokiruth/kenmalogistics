@@ -1,0 +1,161 @@
+            /*COLORS
+                Prussian Blue - #003049
+                Orange - #F77F00
+                Lemon Meringue[Grayish] - #EAE2B7
+                Orange Yellow  - #F4D35E
+            */
+            body {
+                /* font-Family: 'Poppins', Sans-Serif; */
+            }
+
+            header {
+                background-color:#4267B2;
+                height:60px;
+                padding:20px;
+            }
+            footer {
+                background-color:#78A5FF;
+                padding:20px;
+            }
+            .socialIcon {
+                width: 50px;
+                height: 50px;
+            }
+            .social .border {
+                background: transparent;
+                outline: none;
+                width: 50px;
+                height: 50px;
+                border-radius: 100px;
+                border: 2px solid #ffff;
+                transition: all .2s ease-in-out;
+            }
+            .social ul {
+                text-align: center;
+            }
+            .social li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+            .border a:hover{
+                color:#ffff;
+            }
+            .copy {
+                text-align: center;
+                margin-left: 22px;            }
+            .logoText {
+                color:#fff;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 32px;
+                position: relative;
+                float: left;
+                margin:5px 20px 0px 0px
+            }
+            .links {
+                height:40px;
+                padding:15px 10px 0px 10px;
+                /* margin-right: 150px; */
+                text-align:center;
+                position: relative;
+                float: right;
+                font-size: 18px;
+                color: #fff;
+            }
+            .links a {
+                margin-top:8px;
+                padding-right:30px;
+                text-decoration: none ;
+                color:#fff;
+            }
+
+            .links a:hover{
+                color:#EAE2B7;
+            }
+            .homeImage {
+                position:relative;
+                width:100%;
+                margin:auto;
+                min-height:600px;
+                background-image:url("images/homeImage1.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-bottom:10px;
+                margin-top:10px;
+            }
+            .homeImageText {
+                font-family: 'Playfair Display', Serif;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-100%,-0%);
+                font-size: 28px;
+                text-align: center;
+                color: #ffff;
+            }
+            .aboutUsCont {
+                margin:0px 0px 20px 0px;
+                display: block;
+                overflow: auto;
+            }
+
+            .aboutUs {
+                width:49%;
+                min-height: 350px;
+                float:left;
+                text-align: left;
+            }
+            .aboutUs h1 {
+                text-align: center;
+                padding: 10px;
+                font-size: 50px;
+                margin: 10px 0px 10px 0px;
+            }
+            .aboutUs p {
+                padding: 10px;
+                margin: 0px 0px 0px 10px;
+                line-height: 25px;
+            }
+            .aboutUsImage {
+                width:49%;
+                text-align:left;
+                float:right;
+                min-height: 350px;
+                background-image:url("images/trucksImage2.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .industyCont {
+                margin:0px 0px 20px 0px;
+                display: block;
+                overflow: auto;
+            }
+
+            .industry {
+                width:50%;
+                min-height: 300px;
+                text-align: left;
+                float:right;
+            }
+            .industry h1 {
+                /* text-align: center; */
+                padding: 10px;
+                font-size: 40px;
+                margin: 10px 0px 10px 0px;
+            }
+            .industry p {
+                padding: 10px;
+                margin: 0px 0px 0px 10px;
+                line-height: 25px;
+            }
+            .industryContImage {
+                width:49%;
+                text-align:left;
+                float: left;
+                min-height: 300px;
+                background-image:url("images/cargoVanBlack1.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
