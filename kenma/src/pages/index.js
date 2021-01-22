@@ -4,7 +4,8 @@ import SideBar from '../components/SideBar';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import Solutions from '../components/Solutions';
-import { homeObjOne, homeObjThree } from '../components/InfoSection/Data';
+import { homeObjOne } from '../components/InfoSection/Data';
+import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
 			<HeroSection />
 			<InfoSection {...homeObjOne} />
 			<Solutions />
-			<InfoSection {...homeObjThree} />
+			<Contact />
 			<Footer />
 		</>
 	);

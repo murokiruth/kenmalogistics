@@ -1,5 +1,6 @@
 //Reusable
 import Image1 from '../../images/whitetruck.webp';
+
 export const homeObjOne = {
 	id: 'about',
 	lightBg: false,
@@ -34,16 +35,12 @@ export const homeObjOne = {
 // 	darkText: true,
 // };
 
-export const homeObjThree = {
-	id: 'contactus',
-	lightBg: true,
-	lightText: false,
-	lightTextDesc: false,
-	heading: 'Contact Us',
-	description: 'Will Create Contact Form here',
-	imgStart: false,
-	alt: 'Truck',
-	dark: false,
-	primary: false,
-	darkText: true,
-};
+// export const homeObjThree = {
+// 	id: 'contactus',
+// 	lightBg: false,
+// 	lightText: false,
+// 	lightTextDesc: true,
+// 	heading: 'Contact Us',
+// 	description: 'Will Create Contact Form here',
+// 	img: Image2,
+// };

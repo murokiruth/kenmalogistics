@@ -9,11 +9,11 @@ export const SolutionsCont = styled.div`
 	background: #000;
 
 	@media screen and (max-width: 770px) {
-		height: 1100px;
+		height: 1400px;
 	}
 
 	@media screen and (max-width: 480px) {
-		height: 1300px;
+		height: 1400px;
 	}
 `;
 
@@ -67,7 +67,7 @@ export const SolutionsH1 = styled.h1`
 	margin-bottom: 64px;
 
 	@media screen and (max-width: 4800px) {
-		font-size: 32px;
+		font-size: 48px;
 	}
 `;
 
