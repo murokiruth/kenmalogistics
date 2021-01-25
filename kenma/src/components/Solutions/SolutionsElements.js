@@ -6,7 +6,7 @@ export const SolutionsCont = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: #000;
+	background: #dcdcdc;
 
 	@media screen and (max-width: 770px) {
 		height: 1400px;
@@ -32,7 +32,6 @@ export const SolutionsWrapper = styled.div`
 
 	@media screen and (max-width: 770px) {
 		grid-template-columns: 1fr;
-		padding: 0 20px;
 	}
 `;
 
@@ -63,7 +62,7 @@ export const SolutionsIcon = styled.img`
 
 export const SolutionsH1 = styled.h1`
 	font-size: 40px;
-	color: #fff;
+	color: #024b45;
 	margin-bottom: 64px;
 
 	@media screen and (max-width: 4800px) {

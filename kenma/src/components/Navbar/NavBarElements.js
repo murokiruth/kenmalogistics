@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link as LinkRouter } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
+import LogoImg from '../../images/logoGreen.png';
 
 export const Nav = styled.nav`
 	background: ${({ scrollNav }) => (scrollNav ? '#024b45' : 'transparent')};
@@ -39,6 +40,16 @@ export const NavLogo = styled(LinkRouter)`
 	font-weight: bold;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	text-decoration: none;
+`;
+
+export const NavIcon = styled.div`
+	background-image: url(${LogoImg});
+	height: 70px;
+	width: 70px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: 15px;
 `;
 
 export const Name = styled.span`

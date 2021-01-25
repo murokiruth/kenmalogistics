@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { Button } from '../ButtonElement.js';
 import './Form.css';
 import {
 	ContactCont,
@@ -23,7 +24,7 @@ const Contact = () => {
 						{/* <ContactIcon src={LogoIcon1} /> */}
 						<ContactInfo>
 							<div>
-								<h2>Get in Touch with Us</h2>
+								<h3>We are here for you and your business.</h3>
 							</div>
 							<div className='content'>
 								<FaEnvelope />
@@ -38,8 +39,9 @@ const Contact = () => {
 							</div>
 						</ContactInfo>
 					</Column1>
-
-					<Column2>
+				</ContactRow>
+				<ContactRow>
+					<Column2 className='form'>
 						<form action='/'>
 							<div className='Col'>
 								<div>
@@ -77,9 +79,10 @@ const Contact = () => {
 									<textarea type='text' id='message' name='message' placeholder='enter your message'></textarea>
 								</div>
 								<div>
-									<button type='submit' className='form-btn'>
+									<Button>SUBMIT</Button>
+									{/* <button type='submit' className='form-btn'>
 										Submit
-									</button>
+									</button> */}
 								</div>
 							</div>
 						</form>

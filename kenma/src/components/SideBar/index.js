@@ -26,7 +26,7 @@ const SideBar = ({ isOpen, toggle }) => {
 						{' '}
 						Solution{' '}
 					</SideBarLink>
-					<SideBarLink to='contactUs' onClick={toggle}>
+					<SideBarLink to='contactus' onClick={toggle}>
 						{' '}
 						Contact Us{' '}
 					</SideBarLink>
