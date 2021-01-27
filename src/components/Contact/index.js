@@ -48,14 +48,14 @@ const Contact = () => {
 									<label className='formLabel' htmlFor='fname'>
 										First name:
 									</label>
-									<input type='text' id='fname' name='fname' placeholder='John' />
+									<input type='text' id='fname' name='fname' placeholder='enter first name' />
 								</div>
 
 								<div>
 									<label className='formLabel' htmlFor='lname'>
 										Last name:
 									</label>
-									<input type='text' id='lname' name='lname' placeholder='Doe' />
+									<input type='text' id='lname' name='lname' placeholder='enter last name' />
 								</div>
 
 								<div>
@@ -69,7 +69,7 @@ const Contact = () => {
 									<label className='formLabel' htmlFor='lname'>
 										Phone Number:
 									</label>
-									<input type='number' id='phonenumber' name='number' placeholder='your phone number' />
+									<input type='number' id='phonenumber' name='number' placeholder='enter your phone number' />
 								</div>
 
 								<div>
