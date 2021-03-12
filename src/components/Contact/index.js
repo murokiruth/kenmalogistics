@@ -28,7 +28,7 @@ const Contact = () => {
 							</div>
 							<div className='content'>
 								<FaEnvelope />
-								<i>Quote@kenmalogistics.inc.com</i>
+								<i>operations@kenmalogistics.inc.com</i>
 							</div>
 							<div className='content'>
 								<FaPhoneAlt />

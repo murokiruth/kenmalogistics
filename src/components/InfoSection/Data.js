@@ -1,5 +1,6 @@
 //Reusable
 import Image1 from '../../images/whitetruck.webp';
+import Image2 from '../../images/tow.svg';
 
 export const homeObjOne = {
 	id: 'about',
@@ -9,7 +10,9 @@ export const homeObjOne = {
 	heading: 'About Us',
 	description:
 		' Since opening our doors, we’ve been committed to providing service of the highest quality, paying particular attention to working efficiently while keeping the lines of communication with our clients clear and concise. No matter what service you’re looking for, we guarantee to not only meet, but exceed your expectations and ensure your full satisfaction.',
-	buttonLabel: 'Get Started',
+	list: [],
+	formButton: {show:false,buttonLabel:''},
+	buttonLabel: '',
 	imgStart: false,
 	img: Image1,
 	alt: 'Truck',
@@ -18,29 +21,26 @@ export const homeObjOne = {
 	darkText: false,
 };
 
-// export const homeObjTwo = {
-// 	id: 'solutions',
-// 	lightBg: true,
-// 	lightText: false,
-// 	lightTextDesc: false,
-// 	heading: 'Our Solutions',
-// 	description:
-// 		'Our Professional Services will Meet all your needs.  Dignissim sodales ut eu sem. Pellentesque habitant morbi tristique senectus. Iaculis nunc sed augue lacus viverra vitae conguen.',
-// 	buttonLabel: 'Get Started',
-// 	imgStart: true,
-// 	img: require('../../images/logoBlack.png'),
-// 	alt: 'Truck',
-// 	dark: false,
-// 	primary: false,
-// 	darkText: true,
-// };
-
-// export const homeObjThree = {
-// 	id: 'contactus',
-// 	lightBg: false,
-// 	lightText: false,
-// 	lightTextDesc: true,
-// 	heading: 'Contact Us',
-// 	description: 'Will Create Contact Form here',
-// 	img: Image2,
-// };
+export const homeObjTwo = {
+	id: 'towing',
+	lightBg: false,
+	lightText: false,
+	lightTextDesc: true,
+	heading: 'Towing',
+	description:
+		' We offer realiable towing services in the DFW area. Our crews are highly trained and very experienced to safely and properly tow your vehicle from one location to the destination of your choosing. Below are some of the towing services we offer.',
+	list: [
+		'Private Property Towing Services',
+		'Emergency Roadside Assistance',
+		'Affordable Tow Truck Services - Accident Removal',
+		'Motorcycle Tow Truck',
+	],
+	formButton: {show:true,buttonLabel:'REQUEST A TOW'},
+	buttonLabel: 'REQUEST A TOW',
+	imgStart: true,
+	img: Image2,
+	alt: 'Truck',
+	dark: true,
+	primary: true,
+	darkText: false,
+};

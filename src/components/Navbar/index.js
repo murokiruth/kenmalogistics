@@ -60,6 +60,11 @@ const Navbar = ({ toggle }) => {
 								</NavLinks>
 							</NavItem>
 							<NavItem>
+								<NavLinks to='towing' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+									Towing
+								</NavLinks>
+							</NavItem>
+							<NavItem>
 								<NavLinks to='contactus' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
 									Contact Us
 								</NavLinks>

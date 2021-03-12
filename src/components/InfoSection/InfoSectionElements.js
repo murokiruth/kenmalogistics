@@ -72,10 +72,20 @@ export const Subtitle = styled.p`
 	color: ${({ darkText }) => (darkText ? '#e6e6e6' : '#024b45')};
 `;
 
+export const List = styled.ul`
+	/* color: #000; */
+	max-width: 440px;
+	font-size: 18px;
+	line-height: 24px;
+	color: ${({ darkText }) => (darkText ? '#e6e6e6' : '#024b45')};
+`;
+
 export const BtnWrap = styled.div`
 	display: flex;
 	justify-content: flex-start;
 `;
+
+export const Button = styled.button``;
 
 export const ImgWrap = styled.div`
 	max-width: 555px;
@@ -86,4 +96,37 @@ export const Img = styled.img`
 	width: 100%;
 	margin: 0 0 10px 0;
 	padding-right: 0;
+`;
+
+export const ModalWrapper = styled.div`
+	background: red;
+	width: 80%auto;
+	max-width: 300px;
+`;
+
+export const ModalContent = styled.div`
+	width: 400px;
+	min-height: 620px;
+	max-height: 620px;
+	padding: 17px 10px 7px;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: none;
+	background-color: #05e1cf;
+	z-index: 99;
+	/* background:yellow;
+	width: 80%;
+	max-height: 300px
+	position: 'absolute', */
+	/* top: '40px',
+	left: '40px',
+	right: '40px',
+	bottom: '40px',
+	border: '1px solid #ccc',
+	background: '#fff',
+	overflow: 'auto',
+	WebkitOverflowScrolling: 'touch',
+	borderRadius: '4px',
+	outline: 'none',
+	padding: '20px' */
 `;

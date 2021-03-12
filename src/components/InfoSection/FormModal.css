@@ -1,13 +1,10 @@
 .form {
 	padding: 10px 10px 35px 10px;
-	width: 100%;
+	width: 40%;
 	/* background: #037d73; */
 }
-.Col {
-	width: 100%;
-}
 
-.formLabel {
+label {
 	display: flex;
 	color: #fff;
 	justify-content: flex-start;
@@ -15,13 +12,33 @@
 	flex: 0 1 100%;
 	padding-right: 40px;
 	width: 100%;
-	margin: 10px 0;
+	margin: 6px 0;
+}
+.fname {
+	width: 48%;
+	margin-top: 3px;
+	margin-right: 10px;
+	height: 30px;
+	padding: 5px;
+	border: none;
+	float: left;
+	border-radius: 3px;
+}
+
+.lname {
+	width: 48%;
+	margin-top: 3px;
+	height: 30px;
+	padding: 5px;
+	border: none;
+	float: left;
+	border-radius: 3px;
 }
 
 input {
 	width: 100%;
 	margin-top: 3px;
-	height: 35px;
+	height: 30px;
 	padding: 5px;
 	border: none;
 	border-radius: 3px;
@@ -30,12 +47,17 @@ input {
 textarea {
 	width: 100%;
 	margin-top: 3px;
-	height: 100px;
+	height: 90px;
 	padding: 5px;
 	border: none;
 	border-radius: 3px;
 }
 
-.content i {
-	padding-left: 8px;
+h2,
+h5 {
+	text-align: center;
+}
+
+h5 {
+	color: red;
 }
