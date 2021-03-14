@@ -10,13 +10,14 @@ export const ContactCont = styled.div`
 	padding: 25px;
 	margin-bottom: 80px;
 
-	/* @media screen and (max-width: 770px) {
+	@media screen and (max-width: 770px) {
 		height: 1100px;
 	}
 
 	@media screen and (max-width: 480px) {
 		min-height: 1200px;
-	} */
+		margin-top: 250px;
+	}
 `;
 
 export const ContactWrapper = styled.div`
@@ -61,6 +62,16 @@ export const Column2 = styled.div`
 	grid-area: col2;
 	background: #037d73;
 	width: 100%;
+
+	@media screen and (max-width: 780px) {
+		align-items: center;
+	}
+
+	@media screen and (max-width: 380px) {
+		align-items: center;
+		width: 95%;
+		margin-left: -50px;
+	}
 `;
 
 export const ContactIcon = styled.img`

@@ -80,9 +80,6 @@ const Contact = () => {
 								</div>
 								<div>
 									<Button>SUBMIT</Button>
-									{/* <button type='submit' className='form-btn'>
-										Submit
-									</button> */}
 								</div>
 							</div>
 						</form>

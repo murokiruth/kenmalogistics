@@ -24,8 +24,16 @@ function Form(formButton) {
 				{formButton.buttonLabel}
 			</Button>
 			<ModalWrapper>
-				<Modal isOpen={ModalIsOpen} shouldCloseOnOverlayClick={false} onRequestClose={() => setModalIsOpen(false)}>
+				<Modal
+					className='Modal'
+					overlayClassName='Overlay'
+					isOpen={ModalIsOpen}
+					shouldCloseOnOverlayClick={false}
+					onRequestClose={() => setModalIsOpen(false)}>
 					<ModalContent>
+						<div>
+							<button onClick={() => setModalIsOpen(false)}>&times;</button>
+						</div>
 						<h2>Tow Request Form</h2>
 						<h5>All Fields are Required</h5>
 						<div className='ModalBody'>
@@ -48,9 +56,6 @@ function Form(formButton) {
 
 								<Button>SUBMIT</Button>
 							</form>
-						</div>
-						<div>
-							<Button onClick={() => setModalIsOpen(false)}>&times;</Button>
 						</div>
 					</ModalContent>
 				</Modal>

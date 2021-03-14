@@ -8,8 +8,8 @@ export const SolutionsCont = styled.div`
 	align-items: center;
 	background: #dcdcdc;
 
-	@media screen and (max-width: 770px) {
-		height: 1400px;
+	@media screen and (max-width: 1000px) {
+		height: 1100px;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -30,7 +30,7 @@ export const SolutionsWrapper = styled.div`
 		grid-template-columns: 1fr 1fr;
 	}
 
-	@media screen and (max-width: 770px) {
+	@media screen and (max-width: 480px) {
 		grid-template-columns: 1fr;
 	}
 `;

@@ -47,7 +47,7 @@ input {
 textarea {
 	width: 100%;
 	margin-top: 3px;
-	height: 90px;
+	height: 100px;
 	padding: 5px;
 	border: none;
 	border-radius: 3px;
@@ -60,4 +60,67 @@ h5 {
 
 h5 {
 	color: red;
+}
+
+button {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 0px 15px 360px;
+	cursor: pointer;
+	justify-content: right;
+	transition: all 0.3s ease-in-out;
+}
+
+.Modal {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	right: 40px;
+	bottom: 40px;
+	z-index: 0;
+	width: 400px;
+	min-height: 500px;
+	max-height: 600px;
+	background-color: #05e1cf;
+}
+
+.Overlay {
+	position: fixed;
+	top: 10%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: transparent;
+
+	z-index: 99;
+	overflow: auto;
+	/* margin-top: -90px; */
+	transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+	.Modal {
+		width: 350px;
+		justify-content: center;
+	}
+	.Overlay {
+		left: 5;
+		justify-content: center;
+	}
+
+	button {
+		margin-left: 300px;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.Modal {
+		justify-content: center;
+		align-items: center;
+	}
+	.Overlay {
+		justify-content: center;
+		align-items: center;
+	}
 }
