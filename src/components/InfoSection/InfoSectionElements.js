@@ -82,8 +82,6 @@ export const List = styled.ul`
 	max-width: 440px;
 	font-size: 18px;
 	line-height: 24px;
-	list-style-type: disc;
-	list-style-position: outside;
 	color: ${({ darkText }) => (darkText ? '#e6e6e6' : '#024b45')};
 `;
 
@@ -91,8 +89,6 @@ export const BtnWrap = styled.div`
 	display: flex;
 	justify-content: flex-start;
 `;
-
-export const Button = styled.button``;
 
 export const ImgWrap = styled.div`
 	max-width: 555px;
@@ -109,13 +105,14 @@ export const ModalWrapper = styled.div``;
 
 export const ModalContent = styled.div`
 	background-color: #05e1cf;
-	width: 400px;
-	max-height: 700px;
+	width: 100%;
+	/* height: 100%; */
 	padding: 17px 10px 7px;
+	border-radius: 10px;
 
-	/* @media screen and (max-width: 380px) {
+	@media screen and (max-width: 480px) {
 		justify-content: center;
 		align-items: center;
 		width: 350px;
-	} */
+	}
 `;

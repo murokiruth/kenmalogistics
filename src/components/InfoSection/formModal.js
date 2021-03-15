@@ -31,9 +31,7 @@ function Form(formButton) {
 					shouldCloseOnOverlayClick={false}
 					onRequestClose={() => setModalIsOpen(false)}>
 					<ModalContent>
-						<div>
-							<button onClick={() => setModalIsOpen(false)}>&times;</button>
-						</div>
+						<button onClick={() => setModalIsOpen(false)}>&times;</button>
 						<h2>Tow Request Form</h2>
 						<h5>All Fields are Required</h5>
 						<div className='ModalBody'>

@@ -42,6 +42,7 @@ const InfoSection = ({
 							<TextWrapper>
 								<Heading lightText={lightText}> {heading} </Heading>
 								<Subtitle darkText={darkText}> {description}</Subtitle>
+
 								{list.map((item, index) => (
 									<List key={index} darkText={darkText}>
 										{item}

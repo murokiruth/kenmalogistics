@@ -51,6 +51,7 @@ textarea {
 	padding: 5px;
 	border: none;
 	border-radius: 3px;
+	max-width: 380px;
 }
 
 h2,
@@ -63,9 +64,9 @@ h5 {
 }
 
 button {
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
-	margin: 0px 0px 15px 360px;
+	margin: 0px 0px 0px 360px;
 	cursor: pointer;
 	justify-content: right;
 	transition: all 0.3s ease-in-out;
@@ -79,9 +80,11 @@ button {
 	bottom: 40px;
 	z-index: 0;
 	width: 400px;
-	min-height: 500px;
-	max-height: 600px;
+	max-width: 500px;
+	min-height: 550px;
+	max-height: 550px;
 	background-color: #05e1cf;
+	border-radius: 10px;
 }
 
 .Overlay {
@@ -104,13 +107,14 @@ button {
 		justify-content: center;
 	}
 	.Overlay {
-		left: 5;
 		justify-content: center;
+		left: -25px;
 	}
 
 	button {
 		margin-left: 300px;
 		justify-content: center;
+		align-items: center;
 	}
 }
 
