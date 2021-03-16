@@ -57,19 +57,24 @@ textarea {
 h2,
 h5 {
 	text-align: center;
+	color: #fff;
 }
 
 h5 {
 	color: red;
+	margin-top: 5px;
 }
 
 button {
-	font-size: 15px;
+	font-size: 18px;
+	width: 24px;
 	font-weight: bold;
-	margin: 0px 0px 0px 360px;
+	margin: 0px 0px 0px 350px;
 	cursor: pointer;
 	justify-content: right;
+	border-radius: 10px;
 	transition: all 0.3s ease-in-out;
+	white-space: nowrap;
 }
 
 .Modal {
@@ -81,9 +86,9 @@ button {
 	z-index: 0;
 	width: 400px;
 	max-width: 500px;
-	min-height: 550px;
-	max-height: 550px;
-	background-color: #05e1cf;
+	min-height: 580px;
+	max-height: 580px;
+	background-color: #024b45;
 	border-radius: 10px;
 }
 

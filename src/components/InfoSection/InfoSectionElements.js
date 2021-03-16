@@ -28,12 +28,18 @@ export const InfoWrapper = styled.div`
 
 export const InfoRow = styled.div`
 	display: grid;
+	grid-template-columns: 1fr 1fr;
 	grid-auto-columns: minmax(auto, 1fr);
 	align-items: center;
 	grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
 	@media screen and (max-width: 770px) {
 		grid-template-areas: ${({ imgStart }) => (imgStart ? `'col1 col2'` : `'col1 col1' 'col2 col2'`)};
+	}
+
+	@media screen and (max-width: 620px) {
+		grid-template-columns: 1fr;
+		display: block;
 	}
 `;
 
@@ -104,7 +110,7 @@ export const Img = styled.img`
 export const ModalWrapper = styled.div``;
 
 export const ModalContent = styled.div`
-	background-color: #05e1cf;
+	background-color: #024b45;
 	width: 100%;
 	/* height: 100%; */
 	padding: 17px 10px 7px;

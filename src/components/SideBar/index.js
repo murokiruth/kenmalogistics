@@ -24,12 +24,17 @@ const SideBar = ({ isOpen, toggle }) => {
 					</SideBarLink>
 					<SideBarLink to='solutions' onClick={toggle}>
 						{' '}
-						Solution{' '}
+						Solutions{' '}
+					</SideBarLink>
+					<SideBarLink to='towing' onClick={toggle}>
+						{' '}
+						Towing{' '}
 					</SideBarLink>
 					<SideBarLink to='contactus' onClick={toggle}>
 						{' '}
 						Contact Us{' '}
 					</SideBarLink>
+
 					{/* <SideBarLink to='signup' onClick={toggle}>
 						{' '}
 						Sign Up{' '}
