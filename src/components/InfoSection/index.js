@@ -55,7 +55,7 @@ const InfoSection = ({
 								<Img src={img} alt={alt} />
 							</ImgWrap>
 
-							<div>
+							<>
 								{formButton.show ? (
 									<BtnWrap>
 										<Form {...formButton}></Form>
@@ -63,7 +63,7 @@ const InfoSection = ({
 								) : (
 									<></>
 								)}
-							</div>
+							</>
 						</Column2>
 					</InfoRow>
 				</InfoWrapper>
