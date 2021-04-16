@@ -45,6 +45,7 @@ export const ContactRow = styled.div`
 	align-items: center;
 	border-radius: 10px;
 	min-height: 400px;
+	overflow: hidden;
 `;
 
 export const Column1 = styled.div`
@@ -69,8 +70,8 @@ export const Column2 = styled.div`
 
 	@media screen and (max-width: 380px) {
 		align-items: center;
-		width: 95%;
-		margin-left: -50px;
+		width: 100%;
+		/* margin-left: -50px; */
 	}
 `;
 
